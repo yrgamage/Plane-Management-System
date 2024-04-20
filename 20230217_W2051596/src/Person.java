@@ -1,0 +1,33 @@
+public class Person {
+    private String name;
+    private String sureName;
+    private String email;
+    public Person(String name, String sureName, String email){
+        this.name = name;
+        this.sureName = sureName;
+        this.email = email;
+    }
+        public String getName(){
+            return this.name;
+        }
+
+        public String getSureName() {
+            return this.sureName;
+        }
+
+        public String getEmail() {
+            return this.email;
+        }
+        public void setName(String name){
+            this.name=name;
+        }
+
+        public void setSureName(String sureName) {
+            this.sureName = sureName;
+        }
+
+        public void setEmail(String email) {
+            this.email = email;
+        }
+}
+
